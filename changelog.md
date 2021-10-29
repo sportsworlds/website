@@ -10,6 +10,8 @@ _Matheus Nunes_
 
 ## 29 de outubro de 2021
 
-_Matheus Nunes_
+_Matheus Nunes e Elias Jandre_
 
 - Base do site em HTML, CSS, JAVASCRIPT
+- Estrutura de Menus e Cabeçalho 
+- Links de redirecionamento
