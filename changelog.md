@@ -8,8 +8,8 @@ _Matheus Nunes_
 - Mudanças na logo da equipe
 - Fix: Correção do .gitconfig local
 
-## 26 de outubro de 2021
+## 29 de outubro de 2021
 
 _Matheus Nunes_
 
-- Desenvolvimento da pagina home em HTML
+- Base do site em HTML, CSS, JAVASCRIPT
