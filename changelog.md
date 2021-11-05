@@ -15,3 +15,12 @@ _Matheus Nunes e Elias Jandre_
 - Base do site em HTML, CSS, JAVASCRIPT
 - Estrutura de Menus e Cabeçalho 
 - Links de redirecionamento
+
+## 05 de novembro
+
+_Matheus Nunes, Elias Jandre e Luis Fernando
+
+- Estilização pagina home
+- Estrutura do banner em html
+- Caixa de marcas
+- footer
