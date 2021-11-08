@@ -24,3 +24,11 @@ _Matheus Nunes, Elias Jandre e Luis Fernando
 - Estrutura do banner em html
 - Caixa de marcas
 - footer
+
+## 08 de novembro
+
+_Matheus Nunes, Breno Colli, João Paulo Da Silva_
+- Estilização da pagina quem somos
+- Estrutura do banner da pagina quem somos em html
+- Caixa das fotos do funcionarios
+- footer
