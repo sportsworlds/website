@@ -107,7 +107,13 @@ footer span {
   font-size: 12px;
   color: #fff;
 }
+.footer-produtos{
+  margin-top: 80px;
+}
 
+.footer-contatos {
+  margin-top: 325px;
+}
 #quemsomos {
   display: flex;
   align-items: center;
@@ -138,4 +144,58 @@ footer span {
 
 #func img {
   width: 180px;
+}
+
+#destaques h1 {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 15px;
+  
+}
+
+#produtos {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#produtos img {
+  width: 195px;
+}
+
+#contatos h1 {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 35px;
+  text-align: center;
+}
+  
+#conteudo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#info{
+  width: 500px;
+  height: 10px;
+  background-color: violet;
+}
+
+#info img {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+#form{
+  width: 500px;
+  height: 10px;
+  background-color: rgb(130, 177, 238);
 }
