@@ -32,3 +32,12 @@ _Matheus Nunes, Breno Colli, João Paulo Da Silva_
 - Estrutura do banner da pagina quem somos em html
 - Caixa das fotos do funcionarios
 - footer
+
+## 12 de novembro 
+
+_Matheus Nunes, Breno Colli, João Paulo_
+
+- Pagina Contatos
+- Elementos para contatos (wpp, email, insta, face)
+- Caixa de formulario
+- Botão
