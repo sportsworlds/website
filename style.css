@@ -9,6 +9,21 @@
   font-weight: 300;
 }
 
+form input, form select, form textarea, form button {
+  padding: 10px;
+  border: 1px solid #111;
+  border-radius: 5px;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+  flex:1;
+  transition: border-color linear 0.3s;
+}
+
+textarea{
+  resize: none;
+}
+
 .content {
   width: 100%;
   max-width: 1000px;
@@ -112,7 +127,7 @@ footer span {
 }
 
 .footer-contatos {
-  margin-top: 325px;
+  margin-top: 100px;
 }
 #quemsomos {
   display: flex;
@@ -171,19 +186,34 @@ footer span {
   margin-bottom: 15px;
   margin-top: 35px;
   text-align: center;
+  width: 100%;
+  max-width: 318px;
+  border-bottom: 1px solid #222;
+
 }
-  
+
+  #contatos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 #conteudo{
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
-#info{
-  width: 500px;
-  height: 10px;
-  background-color: violet;
+#info div{
+  display: flex;
+  align-items: center;
+}
+
+#info div p{
+  margin-top: 26px;
+   margin-left: 15px;
+   color: #222;
+   font-weight: 600;
 }
 
 #info img {
@@ -193,9 +223,27 @@ footer span {
   justify-content: space-between;
   margin-top: 25px;
 }
-
 #form{
-  width: 500px;
-  height: 10px;
-  background-color: rgb(130, 177, 238);
+  width: 100%;
+  margin-left: 80px;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form button:hover{
+  background-color: #03aa27fd;
+  color: #111;
+  
+}
+
+form button{
+  background-color: #3ad15b;
+  color: #111;
+  font-weight: 600;
+  margin-top:30px;
+  transition: background linear 0.2s;
+}
+
