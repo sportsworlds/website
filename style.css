@@ -217,7 +217,7 @@ footer span {
 }
 
 #info img {
-  width: 45px;
+  width: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -234,13 +234,15 @@ form{
 }
 
 form button:hover{
-  background-color: #03aa27fd;
+  background-color: #079927;
   color: #111;
   
 }
-
+form input:focus{
+  border-color: #10bb35;
+}
 form button{
-  background-color: #3ad15b;
+  background-color: #10bb35;
   color: #111;
   font-weight: 600;
   margin-top:30px;

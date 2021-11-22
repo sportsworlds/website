@@ -35,16 +35,19 @@
           <div><img src="img/envelope-regular.svg" alt=""><p>sportsworldscomercial@gmail.com</p></div>
           
         </div>
-        <div id="form">'
-          <form>
+        <div id="form" >
+          <form autocomplete="off" id="contato">
             <label for="nome">Nome Completo</label>
-            <input type="text" name="nome" placeholder="Nome completo">
-            <label for="nome">E-mail</label>
-            <input type="email" name="nome" placeholder="exemplo@gmail.com">
-            <label for="nome">Whatsapp</label>
-            <input type="number" name="nome" placeholder="(xx) xxxxx-xxxx">
+            <input type="text" name="nome" id="nome" placeholder="Nome completo">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+
+            <label for="number">Whatsapp</label>
+            <input type="number" name="number" id="number" placeholder="(xx) xxxxx-xxxx">
+
             <label for="origem">Como ficou sabendo da nossa loja?</label>
-            <select name="origem" >
+            <select name="origem" id="origem">
               <option style="display: none;">Ex.: Panfleto</option>
               <option value="Eventos">Eventos</option>
               <option value="Eventos Esportivos">Eventos Esportivos</option>
@@ -63,8 +66,8 @@
               </option>
             </select>
             <label for="Mensagem">Mensagem</label>
-            <textarea name="Mensagem"></textarea>
-            <button type="submit">Enviar</button>
+            <textarea name="Mensagem" id="Mensagem"></textarea>
+            <button type="submit" id="enviar">Enviar</button>
           </form>
         </div>
       </div>
