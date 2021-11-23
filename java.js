@@ -1,8 +1,4 @@
-var nome = document.getElementById("nome");
-var nome = document.getElementById("email");
-var nome = document.getElementById("number");
-var nome = document.getElementById("origem");
-var btnEnviar = document.getElementById("enviar");
+var recebidos = JSON.parse(localStorage.getItem("@sw/messagens"))  || [];
 var contato = document.getElementById("contato");
 
 contato.addEventListener('submit', event => {
@@ -10,8 +6,11 @@ contato.addEventListener('submit', event => {
 
    const formData = new FormData(event.target);
    const info = Object.fromEntries(formData);
+   
+   recebidos.push(info);
+   localStorage.setItem("@sw/messagens", JSON.stringify(recebidos));
 
-   console.log(info);
+   contato.reset();
 
    alert("Mensagem Enviada com Sucesso!");
 });
