@@ -172,14 +172,23 @@ footer span {
 
 #produtos {
   width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 15px;
   margin-top: 15px;
+  transition: transform 0.5s;
+  
 }
+
 
 #produtos img {
   width: 195px;
+  
+  
+}
+#produtos img:hover{
+  transform: scale(1.02, 1.02);
 }
 
 #contatos h1 {
