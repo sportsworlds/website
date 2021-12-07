@@ -172,22 +172,19 @@ footer span {
 
 #produtos {
   width: 100%;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-column-gap: 15px;
-row-gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
   margin-top: 15px;
   transition: transform 0.5s;
-  
 }
-
 
 #produtos img {
   width: 195px;
-  
-  
 }
-#produtos img:hover{
+
+#produtos img:hover {
   transform: scale(1.02, 1.02);
 }
 
@@ -214,7 +211,7 @@ row-gap: 15px;
   justify-content: space-between;
 }
 
-#info{
+#info {
   text-decoration: none;
   color: #000;
 }
@@ -248,7 +245,6 @@ row-gap: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 #form {
   width: 100%;
@@ -273,4 +269,20 @@ form button {
   font-weight: 600;
   margin-top: 30px;
   transition: background linear 0.2s;
+}
+
+
+.desc h3{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.desc h3 span{
+  color: #10bb35;
+  font-weight: 500;
+}
+
+.desc h4{
+  font-size: 12px;
+  line-height: 22px;
 }
